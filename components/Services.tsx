@@ -67,7 +67,6 @@ export default function Services() {
                   alt={service.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 text-primary-foreground">{service.icon}</div>
               </div>
 
