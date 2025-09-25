@@ -14,12 +14,13 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground mb-6 text-balance">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground mb-6 leading-tight">
             Premium mobile detailing
             <span className="block text-transparent bg-gradient-to-r from-primary to-accent bg-clip-text text-glow">
               meets exquisite care
             </span>
           </h1>
+
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
             Transform your vehicle into a masterpiece with our professional mobile detailing services. We bring luxury
