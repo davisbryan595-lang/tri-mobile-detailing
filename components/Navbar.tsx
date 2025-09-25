@@ -31,8 +31,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Image src="/logo.png" alt="Tri Mobile Detail" width={50} height={50} className="rounded-full" />
-            <span className="ml-3 text-xl font-serif font-bold text-foreground">Tri Mobile Detail</span>
+            <a href="/" className="brand-link inline-flex items-center">
+              <Image
+                src="/logo.png"
+                alt="Tri Mobile Detail"
+                width={160}
+                height={48}
+                className="brand-logo h-12 w-auto"
+              />
+            </a>
           </div>
 
           {/* Desktop Navigation */}
