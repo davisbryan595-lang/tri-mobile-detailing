@@ -29,15 +29,15 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-14 md:h-16">
           <div className="flex items-center">
-            <a href="/" className="brand-link inline-flex items-center">
+            <a href="/" className="brand-link inline-flex items-center mr-2 md:mr-4">
               <Image
                 src="https://cdn.builder.io/api/v1/image/assets%2F5c758e804cba4fa3a488e9088887877b%2Fe1f1d1f5587d48f6ab6869cb400c4cab?format=webp&width=800"
                 alt="Tri Mobile Detail"
                 width={480}
                 height={144}
-                className="brand-logo h-10 sm:h-12 md:h-14 w-auto"
+                className="brand-logo h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain"
               />
             </a>
           </div>
