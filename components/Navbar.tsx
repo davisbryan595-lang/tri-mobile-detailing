@@ -35,9 +35,9 @@ export default function Navbar() {
               <Image
                 src="https://cdn.builder.io/api/v1/image/assets%2F5c758e804cba4fa3a488e9088887877b%2Fe1f1d1f5587d48f6ab6869cb400c4cab?format=webp&width=800"
                 alt="Tri Mobile Detail"
-                width={480}
+                width={280}
                 height={144}
-                className="brand-logo h-18 sm:h-20 md:h-22 lg:h-14 w-auto object-contain"
+                className="brand-logo h-24 sm:h-26 md:h-28 lg:h-22 w-50"
               />
             </a>
           </div>
