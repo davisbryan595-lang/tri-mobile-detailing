@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <Image src="https://cdn.builder.io/api/v1/image/assets%2F5c758e804cba4fa3a488e9088887877b%2Fe1f1d1f5587d48f6ab6869cb400c4cab?format=webp&width=800" alt="Tri Mobile Detail" width={40} height={40} className="rounded-full" />
+              <Image src="https://cdn.builder.io/api/v1/image/assets%2F5c758e804cba4fa3a488e9088887877b%2Fe1f1d1f5587d48f6ab6869cb400c4cab?format=webp&width=800" alt="Tri Mobile Detail" width={120} height={120} className="rounded-full h-[120px] w-[120px]" />
               <span className="ml-3 text-xl font-serif font-bold text-foreground">Tri Mobile Detail</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
