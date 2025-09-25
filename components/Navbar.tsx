@@ -37,7 +37,7 @@ export default function Navbar() {
                 alt="Tri Mobile Detail"
                 width={480}
                 height={144}
-                className="brand-logo h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain"
+                className="brand-logo h-18 sm:h-20 md:h-22 lg:h-14 w-auto object-contain"
               />
             </a>
           </div>
