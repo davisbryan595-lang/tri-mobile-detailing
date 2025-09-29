@@ -16,8 +16,8 @@ export default function Hero() {
 
       {/* Floating logo */}
       <motion.div
-        className="absolute top-10 left-1/2 -translate-x-1/2 z-20"
-        animate={{ y: [0, -10, 0] }}
+        className="absolute top-8 left-1/2 -translate-x-1/2 z-20"
+        animate={{ y: [0, -12, 0] }}
         transition={{
           duration: 4,
           repeat: Infinity,
@@ -25,16 +25,16 @@ export default function Hero() {
         }}
       >
         <Image
-          src="/Tri Premium mobile detailing.png" // file in /public
+          src="/Tri Premium mobile detailing.png"
           alt="Tri Premium Mobile Detailing Logo"
-          width={140}
-          height={140}
-          className="drop-shadow-lg"
+          width={200}
+          height={200}
+          className="drop-shadow-xl"
           priority
         />
       </motion.div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-56">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground mb-6 leading-tight">
             Premium mobile detailing
