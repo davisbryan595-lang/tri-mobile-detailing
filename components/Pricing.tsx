@@ -98,7 +98,7 @@ export default function Pricing() {
               </ul>
 
               <a
-                href="tel:+19854729439"
+                href="#contact"
                 className={`block w-full text-center py-3 rounded-full font-semibold transition-all duration-300 ${
                   pkg.popular
                     ? "bg-gradient-to-r from-primary to-accent text-primary-foreground hover:glow-effect"

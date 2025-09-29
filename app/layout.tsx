@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Tri Mobile Detail - Premium Mobile Car Detailing",
   description:
     "Transform your vehicle with our premium mobile car detailing services. Professional, convenient, and luxurious.",
-  generator: "v0.app",
+  generator: "The linkage digital",
 }
 
 export default function RootLayout({

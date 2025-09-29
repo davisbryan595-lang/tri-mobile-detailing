@@ -55,7 +55,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="tel:+19854729439"
+                href="#contact"
                 className="bg-gradient-to-r from-primary to-accent text-primary-foreground px-6 py-2 rounded-full font-medium hover:glow-effect transition-all duration-300"
               >
                 Book Now
@@ -89,7 +89,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="tel:+19854729439"
+                href="#contact"
                 className="block w-full text-center bg-gradient-to-r from-primary to-accent text-primary-foreground px-6 py-2 rounded-full font-medium mt-4"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
