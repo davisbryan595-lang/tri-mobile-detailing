@@ -24,7 +24,7 @@ export default function Contact() {
 
               <div className="space-y-6">
                 <a
-                  href="tel:+19854729439"
+                  href="tel:+13854729493"
                   className="flex items-center gap-4 p-4 rounded-xl hover:bg-primary/10 transition-colors group"
                 >
                   <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary/30 transition-colors">
@@ -32,12 +32,12 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Call Us</div>
-                    <div className="text-muted-foreground">(985) 472-9439</div>
+                    <div className="text-muted-foreground">(385) 472-9493</div>
                   </div>
                 </a>
 
                 <a
-                  href="mailto:info@trimobiledetail.com"
+                  href="mailto:Trimobiledetailing@gmail.com"
                   className="flex items-center gap-4 p-4 rounded-xl hover:bg-primary/10 transition-colors group"
                 >
                   <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary/30 transition-colors">
@@ -45,7 +45,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Email Us</div>
-                    <div className="text-muted-foreground">info@trimobiledetail.com</div>
+                    <div className="text-muted-foreground">Trimobiledetailing@gmail.com</div>
                   </div>
                 </a>
 
@@ -110,6 +110,7 @@ export default function Contact() {
                   <option>Essential - $89</option>
                   <option>Premium - $149</option>
                   <option>Luxury - $249</option>
+                  <option>Paint correction - $600 and onwards</option>
                 </select>
               </div>
 

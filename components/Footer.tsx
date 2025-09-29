@@ -39,18 +39,18 @@ export default function Footer() {
             <h3 className="font-semibold text-foreground mb-4">Contact</h3>
             <div className="space-y-3">
               <a
-                href="tel:+19854729439"
+                href="tel:+13854729493"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                (985) 472-9439
+                (385) 472-9493
               </a>
               <a
-                href="mailto:info@trimobiledetail.com"
+                href="mailto:Trimobiledetailing@gmail.com"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                info@trimobiledetail.com
+                Trimobiledetailing@gmail.com
               </a>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4" />
