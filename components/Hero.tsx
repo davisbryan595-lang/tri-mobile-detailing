@@ -27,7 +27,7 @@ export default function Hero() {
         <Image
           src="/Tri Premium mobile detailing.png"
           alt="Tri Premium Mobile Detailing Logo"
-          width={200}
+          width={300}
           height={200}
           className="drop-shadow-xl"
           priority
