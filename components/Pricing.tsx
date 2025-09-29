@@ -39,6 +39,18 @@ export default function Pricing() {
       ],
       popular: false,
     },
+    {
+      name: "Paint Correction",
+      price: "Starting at $600",
+      description: "Restore your vehicle’s shine and remove imperfections. Final cost depends on vehicle size.",
+      features: [
+        "Full vehicle paint correction",
+        "Swirl mark & scratch reduction",
+        "Gloss restoration",
+        "Customized treatment per vehicle size",
+      ],
+      popular: false,
+    },
   ]
 
   return (
@@ -53,7 +65,7 @@ export default function Pricing() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {packages.map((pkg, index) => (
             <div
               key={index}
