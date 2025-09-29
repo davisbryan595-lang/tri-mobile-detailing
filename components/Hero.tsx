@@ -1,6 +1,8 @@
 "use client"
 
 import { ArrowRight, Star } from "lucide-react"
+import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function Hero() {
   return (
@@ -12,6 +14,26 @@ export default function Hero() {
       <div className="absolute top-20 left-10 w-32 h-32 bg-primary/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 right-10 w-48 h-48 bg-accent/10 rounded-full blur-3xl"></div>
 
+      {/* Floating logo */}
+      <motion.div
+        className="absolute top-10 left-1/2 -translate-x-1/2 z-20"
+        animate={{ y: [0, -10, 0] }}
+        transition={{
+          duration: 4,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+      >
+        <Image
+          src="/Tri Premium mobile detailing.png" // file in /public
+          alt="Tri Premium Mobile Detailing Logo"
+          width={140}
+          height={140}
+          className="drop-shadow-lg"
+          priority
+        />
+      </motion.div>
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground mb-6 leading-tight">
@@ -20,7 +42,6 @@ export default function Hero() {
               meets exquisite care
             </span>
           </h1>
-
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
             Transform your vehicle into a masterpiece with our professional mobile detailing services. We bring luxury
