@@ -49,7 +49,7 @@ export default function Pricing() {
         "Gloss restoration",
         "Customized treatment per vehicle size",
       ],
-      popular: false,
+      popular: true,
     },
   ]
 
